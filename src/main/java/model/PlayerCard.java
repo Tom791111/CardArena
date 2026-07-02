@@ -1,0 +1,1 @@
+package model; public class PlayerCard{public int id; public String cardName,playerName,sport,team,brand,cardNumber,grade,description,imagePath; public int cardYear,quantity; public double price; public Object[] row(){return new Object[]{id,cardName,playerName,sport,team,cardYear,brand,grade,price,quantity};}}

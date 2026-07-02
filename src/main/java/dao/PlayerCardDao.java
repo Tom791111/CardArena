@@ -1,0 +1,1 @@
+package dao; import java.util.*;import model.PlayerCard; public interface PlayerCardDao{List<PlayerCard> findAll();List<PlayerCard> search(String k);void add(PlayerCard c);void update(PlayerCard c);void delete(int id);} 

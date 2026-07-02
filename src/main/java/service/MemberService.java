@@ -1,0 +1,1 @@
+package service; import java.util.*;import model.Member; public interface MemberService{Member login(String a,String p);void register(Member m);List<Member> findAll();void save(Member m);void delete(int id);} 

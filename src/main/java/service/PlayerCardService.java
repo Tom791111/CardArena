@@ -1,0 +1,1 @@
+package service; import java.util.*;import model.PlayerCard; public interface PlayerCardService{List<PlayerCard> findAll();List<PlayerCard> search(String k);void save(PlayerCard c);void delete(int id);} 

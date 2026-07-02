@@ -1,0 +1,1 @@
+package dao; import java.util.*;import model.Member; public interface MemberDao{Member login(String a,String p); void add(Member m); List<Member> findAll(); void update(Member m); void delete(int id);} 
